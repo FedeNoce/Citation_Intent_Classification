@@ -104,7 +104,7 @@ class Attention(nn.Module):
 
 #Choose hyperparameters
 embed_size = 300 # how big is each word vector
-max_features = 120000 # how many unique words to use (i.e num rows in embedding vector)
+#max_features = 120000 # how many unique words to use (i.e num rows in embedding vector)
 maxlen = 50 # max number of words in a question to use
 batch_size = 40 # how many samples to process at once
 
