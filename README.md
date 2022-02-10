@@ -1,4 +1,4 @@
-# Citation_Intent_Classification
+# Citation Intent Classification
 
 
 ## Table of Contents
