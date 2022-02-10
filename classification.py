@@ -109,11 +109,11 @@ maxlen = 50 # max number of words in a question to use
 batch_size = 40 # how many samples to process at once
 
 #Set the path to csv Scicite files
-data1 = pd.read_csv('/home/dinfo21fednoc/data/scicite/dev.csv')
-data2 = pd.read_csv('/home/dinfo21fednoc/data/scicite/test.csv')
-data3 = pd.read_csv('/home/dinfo21fednoc/data/scicite/train.csv')
-data_section = pd.read_csv('/home/dinfo21fednoc/data/scicite/sections-scaffold-train.csv')
-data_worthiness = pd.read_csv('/home/dinfo21fednoc/data/scicite/cite-worthiness-scaffold-train.csv')
+data1 = pd.read_csv('/dev.csv')
+data2 = pd.read_csv('/test.csv')
+data3 = pd.read_csv('/train.csv')
+data_section = pd.read_csv('/sections-scaffold-train.csv')
+data_worthiness = pd.read_csv('/cite-worthiness-scaffold-train.csv')
 
 data_section = pd.concat([data_section])[['text', 'section_title']]
 data_worthiness = pd.concat([data_worthiness])[['text', 'is_citation']]
@@ -230,7 +230,7 @@ train_loader_section = torch.utils.data.DataLoader(train_section, batch_size=bat
 train_loader_worthiness = torch.utils.data.DataLoader(train_worthiness, batch_size=batch_size, shuffle=False)
 
 
-elmo = Elmo(options_file='/home/dinfo21fednoc/data/options.json', weight_file='/home/dinfo21fednoc/data/elmo.hdf5', num_output_representations=1).cuda()#set path to Elmo weights
+elmo = Elmo(options_file='/options.json', weight_file='/elmo.hdf5', num_output_representations=1).cuda()#set path to Elmo weights
 train_loss = []
 valid_loss = []
 embedding_matrix = load_glove(tokenizer.word_index)
