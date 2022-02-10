@@ -7,7 +7,7 @@
   * [Built With](#built-with)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Authors](#authors)
+* [Acknowledgments](#acknowledgments)
 
 
 
@@ -56,5 +56,5 @@ git clone https://github.com/FedeNoce/Citation_Intent_Classification.git
 * [**Corso Vignoli**](https://github.com/CVignoli)
 
 ## Acknowledgments
-We tried to reply the results obtained by [Structural Scaffolds for Citation Intent Classification in Scientific Publications](https://arxiv.org/pdf/1904.01608.pdf) - Computer Engineering Master Degree @[University of Florence](https://www.unifi.it/changelang-eng.html)
+We tried to reply the results obtained in [Structural Scaffolds for Citation Intent Classification in Scientific Publications](https://arxiv.org/pdf/1904.01608.pdf) - Computer Engineering Master Degree @[University of Florence](https://www.unifi.it/changelang-eng.html)
 
