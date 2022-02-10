@@ -57,7 +57,7 @@ def replace_contractions(text):
 
 
 def load_glove(word_index):
-    EMBEDDING_FILE = '/home/dinfo21fednoc/data/glove.6B/glove.6B.300d.txt'
+    EMBEDDING_FILE = '/glove.6B/glove.6B.300d.txt'#Path to Glove
 
     def get_coefs(word, *arr):
         return word, np.asarray(arr, dtype='float32')[:300]
