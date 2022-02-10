@@ -44,6 +44,8 @@ git clone https://github.com/FedeNoce/Citation_Intent_Classification.git
 
 ## Usage
 
+1. Convert jsonl file in Scicite to csv with ```jsonl_to_csv.py```
+
 1. Set hyperparameters and paths in ```classification.py``` and in ```utils.py```
 
 2. To train the model run ```classification.py```
