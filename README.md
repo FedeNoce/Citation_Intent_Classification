@@ -14,7 +14,7 @@
 ## About The Project
 
 
-Citation Intent Classification in scientific papers using the Scicite dataset an Pytorch
+Citation Intent Classification in scientific papers using the Scicite dataset and Pytorch
 
 For more information, read the [report](report.pdf) located in the repo
 root.
